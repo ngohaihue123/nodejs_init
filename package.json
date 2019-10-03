@@ -1,0 +1,84 @@
+{
+  "name": "tglt-sell-courses",
+  "version": "0.0.1",
+  "description": "This source is a part of thegioiluyenthi.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/bin/index.js",
+    "test": "mocha --timeout 10000",
+    "lint": "eslint '**/*.js' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orangetwentyfour/node-js-boilerplate.git"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "brace-style": [
+        "error",
+        "stroustrup"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-unused-vars": [
+        "warn"
+      ],
+      "no-var": [
+        "off"
+      ],
+      "one-var": [
+        "off"
+      ]
+    }
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.1",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-pino-logger": "^4.0.0",
+    "express-status-monitor": "^1.2.6",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.21.1",
+    "http-auth": "^3.2.3",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.1.1",
+    "pino": "^5.13.1",
+    "pino-pretty": "^3.2.0",
+    "socket.io": "^2.2.0",
+    "spdy": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.18.11"
+  },
+  "keywords": [
+    "boilerplate",
+    "thegioiluyenthi"
+  ],
+  "author": "DuyN",
+  "bugs": {
+    "url": "https://github.com/orangetwentyfour/node-js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/orangetwentyfour/node-js-boilerplate#readme"
+}
